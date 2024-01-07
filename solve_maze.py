@@ -38,8 +38,8 @@ RGB_RED = (255, 0, 0)
 
 def updateScreen(text):
     display.fill(0)
-    display.text(f"SciOly", 39, 0)
-    display.text(f"Robot Tour", 24, 10)
+    display.text(f"Maze Solving", 39, 0)
+    display.text(f"Robot", 24, 10)
     display.text(f"2023-2024", 0, 50)
     display.text(f"{text}", 0, 30)
     display.show()
